@@ -1,1 +1,1 @@
-from . import websocketParas
+from .websocketParas import WebSocketParas
