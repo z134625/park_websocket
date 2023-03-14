@@ -7,6 +7,7 @@ class WebSocketParas(Paras):
     @staticmethod
     def init() -> dict:
         context = _Context({
-            'websocket_port': 8679,
+            'websocket_host': 'localhost',
+            'websocket_port': 8765,
         })
         return locals()
